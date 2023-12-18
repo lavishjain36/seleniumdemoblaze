@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 18 12:04:52 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56912 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Logintest.LoginWith_Valid_Credentials()'><b>LoginWith_Valid_Credentials</b><br>Test class: testcases.Logintest<br>Parameters: balaji123, admin123<br/>
+<a href="#Output-2070003473" onClick='toggleBox("Output-2070003473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2070003473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2070003473">
+Welcome to login page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcases.Logintest@6caf0677</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest</td>
+<td></td>
+<td>2</td>
+<td>testcases.Signuptest@4082ba93</td></tr>
+<tr>
+<td title='testcases.Logintest.LoginWith_Valid_Credentials()'><b>LoginWith_Valid_Credentials</b><br>Test class: testcases.Logintest<br>Parameters: arpita678, admin123<br/>
+<a href="#Output-971415207" onClick='toggleBox("Output-971415207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-971415207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-971415207">
+Welcome to login page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcases.Logintest@6caf0677</td></tr>
+<tr>
+<td title='testcases.HomePagetest.verifytitle_on_hompage()'><b>verifytitle_on_hompage</b><br>Test class: testcases.HomePagetest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePagetest@4a003cbe</td></tr>
+<tr>
+<td title='testcases.Logintest.LoginWith_Valid_Credentials()'><b>LoginWith_Valid_Credentials</b><br>Test class: testcases.Logintest<br>Parameters: karthikeyan, admin123<br/>
+<a href="#Output-1070523353" onClick='toggleBox("Output-1070523353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1070523353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1070523353">
+Welcome to login page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcases.Logintest@6caf0677</td></tr>
+<tr>
+<td title='testcases.HomePagetest.verifylogo_on_homepage()'><b>verifylogo_on_homepage</b><br>Test class: testcases.HomePagetest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePagetest@4a003cbe</td></tr>
+<tr>
+<td title='testcases.HomePagetest.verify_allmenuitems_on_homepage()'><b>verify_allmenuitems_on_homepage</b><br>Test class: testcases.HomePagetest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePagetest@4a003cbe</td></tr>
+<tr>
+<td title='testcases.HomePagetest.verify_product_features_presence()'><b>verify_product_features_presence</b><br>Test class: testcases.HomePagetest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePagetest@4a003cbe</td></tr>
+<tr>
+<td title='testcases.Logintest.LoginWith_Valid_Credentials()'><b>LoginWith_Valid_Credentials</b><br>Test class: testcases.Logintest<br>Parameters: lavish123, admin123<br/>
+<a href="#Output-964094970" onClick='toggleBox("Output-964094970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-964094970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-964094970">
+Welcome to login page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcases.Logintest@6caf0677</td></tr>
+</table><p>
+</body>
+</html>

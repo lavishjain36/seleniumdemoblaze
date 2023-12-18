@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Welcome to login page]]>
+    </line>
+    <line>
+      <![CDATA[Welcome to login page]]>
+    </line>
+    <line>
+      <![CDATA[Welcome to login page]]>
+    </line>
+    <line>
+      <![CDATA[Welcome to login page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-18T12:04:52 IST" name="Suite" finished-at="2023-12-18T12:05:49 IST" duration-ms="56912">
+    <groups>
+    </groups>
+    <test started-at="2023-12-18T12:04:52 IST" name="Test" finished-at="2023-12-18T12:05:49 IST" duration-ms="56912">
+      <class name="testcases.HomePagetest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:28 IST" name="startup" finished-at="2023-12-18T12:05:30 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verify_allmenuitems_on_homepage()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:30 IST" name="verify_allmenuitems_on_homepage" finished-at="2023-12-18T12:05:31 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_allmenuitems_on_homepage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:32 IST" name="close" finished-at="2023-12-18T12:05:32 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:32 IST" name="startup" finished-at="2023-12-18T12:05:35 IST" duration-ms="2528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verify_product_features_presence()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:35 IST" name="verify_product_features_presence" finished-at="2023-12-18T12:05:35 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_product_features_presence -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:36 IST" name="close" finished-at="2023-12-18T12:05:36 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:36 IST" name="startup" finished-at="2023-12-18T12:05:39 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verifylogo_on_homepage()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:39 IST" name="verifylogo_on_homepage" finished-at="2023-12-18T12:05:39 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo_on_homepage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:39 IST" name="close" finished-at="2023-12-18T12:05:40 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:40 IST" name="startup" finished-at="2023-12-18T12:05:42 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verifytitle_on_hompage()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:42 IST" name="verifytitle_on_hompage" finished-at="2023-12-18T12:05:42 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle_on_hompage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.HomePagetest@4a003cbe]" started-at="2023-12-18T12:05:42 IST" name="close" finished-at="2023-12-18T12:05:43 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.HomePagetest -->
+      <class name="testcases.Signuptest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.Signuptest@4082ba93]" started-at="2023-12-18T12:05:43 IST" name="startup" finished-at="2023-12-18T12:05:45 IST" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="signup()[pri:0, instance:testcases.Signuptest@4082ba93]" started-at="2023-12-18T12:05:45 IST" name="signup" finished-at="2023-12-18T12:05:48 IST" duration-ms="2644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@4082ba93]" started-at="2023-12-18T12:05:48 IST" name="close" finished-at="2023-12-18T12:05:49 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.Signuptest -->
+      <class name="testcases.Logintest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:04:55 IST" name="startup" finished-at="2023-12-18T12:04:59 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginWith_Valid_Credentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:04:59 IST" name="LoginWith_Valid_Credentials" data-provider="loginData" finished-at="2023-12-18T12:05:03 IST" duration-ms="4385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arpita678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWith_Valid_Credentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:03 IST" name="close" finished-at="2023-12-18T12:05:04 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:04 IST" name="startup" finished-at="2023-12-18T12:05:06 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginWith_Valid_Credentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:06 IST" name="LoginWith_Valid_Credentials" data-provider="loginData" finished-at="2023-12-18T12:05:10 IST" duration-ms="4352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lavish123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWith_Valid_Credentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:11 IST" name="close" finished-at="2023-12-18T12:05:11 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:11 IST" name="startup" finished-at="2023-12-18T12:05:14 IST" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginWith_Valid_Credentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:14 IST" name="LoginWith_Valid_Credentials" data-provider="loginData" finished-at="2023-12-18T12:05:18 IST" duration-ms="4382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[balaji123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWith_Valid_Credentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:18 IST" name="close" finished-at="2023-12-18T12:05:19 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:19 IST" name="startup" finished-at="2023-12-18T12:05:23 IST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginWith_Valid_Credentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:23 IST" name="LoginWith_Valid_Credentials" data-provider="loginData" finished-at="2023-12-18T12:05:27 IST" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthikeyan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWith_Valid_Credentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Logintest@6caf0677]" started-at="2023-12-18T12:05:27 IST" name="close" finished-at="2023-12-18T12:05:28 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
