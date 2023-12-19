@@ -90,7 +90,6 @@
 		    <configuration>
 				<suiteXmlFiles>testng.xml</suiteXmlFiles>
 			</configuration>
-
 		  </plugin>
 		  
 	  </plugins>
